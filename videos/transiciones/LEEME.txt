@@ -1,0 +1,34 @@
+VÍDEOS DE TRANSICIÓN — ATRAPA A LA BEBÉ MILLONARIA
+==================================================
+
+Esta carpeta (videos\transiciones) es donde van tus vídeos de transición.
+Tiene que estar siempre junto al archivo del juego, así:
+
+  Atrapa a la Bebe Millonaria\
+     Atrapa a la Bebe Millonaria.html   <- el juego (doble clic para abrir, con Chrome o Edge)
+     videos\
+        transiciones\
+           config.js                    <- configuración (se abre con el Bloc de notas)
+           transicion.mp4               <- tu vídeo general (ya colocado)
+           transicion_1.mp4             <- (opcional) vídeo solo para antes de la pregunta 1
+           transicion_2.mp4             <- (opcional) vídeo solo para antes de la pregunta 2
+           ...
+
+ORDEN DE LA PARTIDA
+  Intro -> pantalla de bienvenida -> COMENZAR A JUGAR ->
+  VÍDEO 1 -> pregunta 1 (trampillas, apuestas, comodines) -> bloquear -> abrir trampillas -> resultado ->
+  SIGUIENTE -> VÍDEO 2 -> pregunta 2 -> ... -> última pregunta -> resultados finales.
+  Las preguntas van en orden de nivel: 1-5 fáciles, 6-10 medias, 11-15 difíciles, 16-20 extremas.
+  (Si un nivel tiene menos de 5 preguntas, la numeración se adelanta: cuenta en el orden real de juego.)
+
+CÓMO ASIGNAR VÍDEOS
+  - El mismo vídeo antes de todas las preguntas: llámalo transicion.mp4.
+  - Un vídeo distinto antes de una pregunta concreta: llámalo transicion_N.mp4,
+    donde N es la pregunta que va a empezar (transicion_1.mp4 = antes de la 1).
+  - Con otros nombres: abre config.js con el Bloc de notas y escribe en "videos"
+    el número de pregunta y el nombre del archivo.
+  - Si falta un vídeo, el juego hace una transición animada y sigue sin bloquearse.
+
+CONSEJOS
+  - Formato MP4 (H.264). Mejor en 16:9 (1920x1080 o 1280x720).
+  - Durante el vídeo: Esc o el botón «SALTAR VÍDEO» lo salta.
